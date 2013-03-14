@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="pl_action_update.Text">
+		<value>Check For Updates</value>
+	</data>
+	
+	<data name="pl_minesweeper.Text">
+		<value>Minesweeper</value>
+	</data>
+	<data name="pl_frigate.Text">
+		<value>Frigate</value>
+	</data>
+	<data name="pl_cruiser.Text">
+		<value>Cruiser</value>
+	</data>
+	<data name="pl_battleship.Text">
+		<value>Battleship</value>
+	</data>
+	
+	<data name="pl_preload.Text">
+		<value>Preloading Images...   Please Wait...</value>
+	</data>
+	<data name="pl_you_sank_my.Text">
+		<value>You sank my</value>
+	</data>
+	<data name="pl_I_sank_your.Text">
+		<value>I sank your</value>
+	</data>
+	<data name="pl_you_win.Text">
+		<value>You win! Click the Restart Game link to play another game.</value>
+	</data>
+	<data name="pl_I_win.Text">
+		<value>I win! Click the Restart Game link to play another game.</value>
+	</data>
+	<data name="pl_computer_has.Text">
+		<value>Computer has</value>
+	</data>
+	<data name="pl_nothing_left.Text">
+		<value>nothing left, thanks to you!</value>
+	</data>
+</root>

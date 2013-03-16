@@ -1,0 +1,182 @@
+<dotnetnuke type="Package" version="5.0">
+	<packages>
+		<package name="DONEIN_NET\Battleship" type="Module" version="1.1.0">
+			<friendlyName>DONEIN_NET\Battleship</friendlyName>
+			<description>This module creates a Battleship game that serves as a great diversion from doing real work.</description>
+			<owner>
+				<name>DONEIN.NET</name>
+				<organization>DONEIN.NET</organization>
+				<url>http://www.donein.net/</url>
+				<email>support@donein.net</email>
+			</owner>
+			<license>
+				<![CDATA[<DIV STYLE="text-align: justify;">
+					If purchasing the source code for this module, you are allowed to alter the code to meet your requirements.  However, you may not resell the module as your own creation.  
+					<BR /><BR />
+					If you plan to resell this module, please contact us.
+					<BR /><BR />
+				</DIV>]]>
+			</license>
+			<releaseNotes>
+				<![CDATA[<DIV STYLE="text-align: justify;">
+					<SPAN STYLE="font-weight: bold;">Version 1.1.0</SPAN>
+					<UL>
+						<LI>DNN 5.x Manifest File Implementation</LI>
+					<UL>
+				</DIV>]]>
+			</releaseNotes>
+			<components>
+				<component type="Module">
+					<desktopModule>
+						<moduleName>DONEIN_NET\Battleship</moduleName>
+						<foldername>DONEIN_NET\Battleship</foldername>
+						<businessControllerClass />
+						<supportedFeatures />
+						<moduleDefinitions>
+							<moduleDefinition>
+								<friendlyName>Battleship</friendlyName>
+								<defaultCacheTime>0</defaultCacheTime>
+								<moduleControls>
+									<moduleControl>
+										<controlKey />
+										<controlSrc>DesktopModules/DONEIN_NET/Battleship/base.ascx</controlSrc>
+										<supportsPartialRendering>False</supportsPartialRendering>
+										<controlTitle />
+										<controlType>View</controlType>
+										<iconFile />
+										<helpUrl />
+										<viewOrder>0</viewOrder>
+									</moduleControl>
+								</moduleControls>
+							</moduleDefinition>
+						</moduleDefinitions>
+					</desktopModule>
+				</component>
+				<component type="Assembly">
+					<assemblies>
+						<basePath>bin</basePath>
+						<assembly>
+							<path>bin</path>
+							<name>DONEIN.NET.Battleship.dll</name>
+							<sourceFileName>DONEIN.NET.Battleship.dll</sourceFileName>
+						</assembly>
+					</assemblies>
+				</component>
+				<component type="File">
+					<files>
+						<basePath>DesktopModules\DONEIN_NET\Battleship</basePath>
+						<file>
+							<name>base.ascx</name>
+							<sourceFileName>base.ascx</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>1.gif</name>
+							<sourceFileName>images\1.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>2.gif</name>
+							<sourceFileName>images\2.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>3.gif</name>
+							<sourceFileName>images\3.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>4.gif</name>
+							<sourceFileName>images\4.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>5.gif</name>
+							<sourceFileName>images\5.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>6.gif</name>
+							<sourceFileName>images\6.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>7.gif</name>
+							<sourceFileName>images\7.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>8.gif</name>
+							<sourceFileName>images\8.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>9.gif</name>
+							<sourceFileName>images\9.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>10.gif</name>
+							<sourceFileName>images\10.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>100.gif</name>
+							<sourceFileName>images\100.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>101.gif</name>
+							<sourceFileName>images\101.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>102.gif</name>
+							<sourceFileName>images\102.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>103.gif</name>
+							<sourceFileName>images\103.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>201.gif</name>
+							<sourceFileName>images\201.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>202.gif</name>
+							<sourceFileName>images\202.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>203.gif</name>
+							<sourceFileName>images\203.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>204.gif</name>
+							<sourceFileName>images\204.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>205.gif</name>
+							<sourceFileName>images\205.gif</sourceFileName>
+						</file>
+						<file>
+							<path>images</path>
+							<name>206.gif</name>
+							<sourceFileName>images\206.gif</sourceFileName>
+						</file>
+						<file>
+							<path>app_localresources</path>
+							<name>base.ascx.resx</name>
+							<sourceFileName>base.ascx.resx</sourceFileName>
+						</file>
+					</files>
+				</component>
+			</components>
+		</package>
+	</packages>
+</dotnetnuke>
